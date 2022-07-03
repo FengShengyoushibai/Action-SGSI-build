@@ -6,7 +6,7 @@ on:
       ROM_URL:
         description: 'ROM_URL'
         required: true
-        default: 'http://romdownload.nubia.com/Z30Pro/V1.34/NX667J-update.zip'
+        default: 'https://assorted.downloads.oppo.com/firmware/CPH1919/CPH1919EX_11_OTA_1340_all_A0kRBREmGwZN.ozip'
       ZIP_NAME:
         description: 'ZIP_NAME'
         required: true
@@ -14,7 +14,7 @@ on:
       OS_TYPE:
         description: 'OS_TYPE'
         required: true
-        default: 'nubia'
+        default: 'oppo'
       SGSI_TYPE:
         description: 'SGSI_TYPE(AB, A, or BOTH)'
         required: true
@@ -22,7 +22,7 @@ on:
       REPACK_NAME:
         description: 'REPACK_NAME'
         required: true
-        default: 'SGSI.zip'
+        default: 'oppoSGSI.zip'
 
 
 
