@@ -6,7 +6,7 @@ on:
       ROM_URL:
         description: 'ROM_URL'
         required: true
-        default: 'https://sysupwrdl.vivo.com.cn/upgrade/official/officialFiles/PD1936_A_9.16.7-update-full_1643337342.zip'
+        default: 'https://www.coolapk.com/link?url=https%3A%2F%2Ffirmware.meizu.com%2FFirmware%2FFlyme%2Fmeizu18%2F9.3.0.0%2Fcn%2F20220628163012%2F27dbef47%2Fupdate.zip'
       ZIP_NAME:
         description: 'ZIP_NAME'
         required: true
@@ -14,7 +14,7 @@ on:
       OS_TYPE:
         description: 'OS_TYPE'
         required: true
-        default: 'vivo'
+        default: 'flyme'
       SGSI_TYPE:
         description: 'SGSI_TYPE(AB, A, or BOTH)'
         required: true
