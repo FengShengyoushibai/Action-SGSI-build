@@ -6,26 +6,22 @@ cd $LOCALDIR
 systemdir=$1
 
 apps_dir="
-Email
-VivoTips
-vivoOffice
-VivoGallery
-iRoaming
-iRoamingService
-VideoPlayer
-vivoWallet
-iReader
-BBKCloud
-BuiltInPrintService
-VLife_vivo
-vivospace-v2
-Updater
-VivoShare
-BBKAppStore
-UpnpServer
-EasyShare
-GmsCore
-GooglePlayServicesUpdater
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 "
 for delete_dir in $apps_dir ;do
   find $systemdir -type d -name "$delete_dir" | xargs rm -rf
