@@ -6,7 +6,7 @@ on:
       ROM_URL:
         description: 'ROM_URL'
         required: true
-        default: 'https://hugeota.d.miui.com/21.5.31/miui_TUCANA_21.5.31_cb42ec9bed_11.0.zip'
+        default: 'https://sysupwrdl.vivo.com.cn/upgrade/official/officialFiles/PD1936_A_9.16.7-update-full_1643337342.zip'
       ZIP_NAME:
         description: 'ZIP_NAME'
         required: true
@@ -14,7 +14,7 @@ on:
       OS_TYPE:
         description: 'OS_TYPE'
         required: true
-        default: 'flyme'
+        default: 'vivo'
       SGSI_TYPE:
         description: 'SGSI_TYPE(AB, A, or BOTH)'
         required: true
