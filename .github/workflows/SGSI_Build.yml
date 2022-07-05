@@ -6,7 +6,7 @@ on:
       ROM_URL:
         description: 'ROM_URL'
         required: true
-        default: 'http://cdn-ota.blackshark.com/KSR-A0/20210914141846-kaiser-ota-signed_by_xiaomi_cd2b36b0b575948220c26da2b4b05b58.zip'
+        default: 'https://xiaomi.baishancdnx.cn/xdispatch0ab506f3cbbdf11f/bigota.d.miui.com/21.11.3/miui_MONA_21.11.3_9e15556caa_11.0.zip?bsreqid=5cfbab5c34d11d9c30345873eb4a7682&DPhost=xiaomi.baishancdnx.cn'
       ZIP_NAME:
         description: 'ZIP_NAME'
         required: true
