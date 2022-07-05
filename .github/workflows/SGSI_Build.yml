@@ -6,7 +6,7 @@ on:
       ROM_URL:
         description: 'ROM_URL'
         required: true
-        default: 'https://assorted.downloads.oppo.com/firmware/CPH1919/CPH1919EX_11_OTA_1340_all_A0kRBREmGwZN.ozip'
+        default: 'http://cdn-ota.blackshark.com/KSR-A0/20210914141846-kaiser-ota-signed_by_xiaomi_cd2b36b0b575948220c26da2b4b05b58.zip'
       ZIP_NAME:
         description: 'ZIP_NAME'
         required: true
@@ -14,7 +14,7 @@ on:
       OS_TYPE:
         description: 'OS_TYPE'
         required: true
-        default: 'oppo'
+        default: 'miui'
       SGSI_TYPE:
         description: 'SGSI_TYPE(AB, A, or BOTH)'
         required: true
